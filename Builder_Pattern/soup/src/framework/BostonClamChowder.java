@@ -1,0 +1,17 @@
+package framework;
+
+class BostonClamChowder extends ClamChowder{
+	
+	public BostonClamChowder()
+	{
+		soupName = "quahoChowder";
+		soupIngredients.clear();
+		soupIngredients.add("1 Pound Fresh Quahogs");
+		soupIngredients.add("1 cup corn");
+		soupIngredients.add("1/2 cup heavy cream");
+		soupIngredients.add("1/4 cup butter");
+		soupIngredients.add("1/4 cup potato chips");
+		
+	}
+
+}
